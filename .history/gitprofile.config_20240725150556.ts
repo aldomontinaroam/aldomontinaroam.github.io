@@ -57,7 +57,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Aldo Montinaro',
+    title: 'Aldo Montinaro Portfolio',
     description: '',
     imageURL: '',
   },

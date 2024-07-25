@@ -57,7 +57,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Aldo Montinaro',
+    title: 'Aldo Montinaro Portfolio',
     description: '',
     imageURL: '',
   },
@@ -84,7 +84,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button. 
+      '/Users/aldo.montinaro/Documents/GitHub/gitprofile/public/Montinaro_CV_EN.pdf', // Empty fileUrl will hide the `Download Resume` button. 
   },
   skills: [
     'Python',

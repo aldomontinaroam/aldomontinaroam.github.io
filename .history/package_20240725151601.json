@@ -19,9 +19,7 @@
     "lint:fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",

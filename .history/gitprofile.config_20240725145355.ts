@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'GitHub Projects',
+      header: 'GitHub Projects Repositories',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -57,7 +57,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Aldo Montinaro',
+    title: 'Aldo Montinaro Portfolio',
     description: '',
     imageURL: '',
   },
@@ -84,7 +84,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button. 
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button. 
   },
   skills: [
     'Python',

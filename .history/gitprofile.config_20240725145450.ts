@@ -57,7 +57,7 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Aldo Montinaro',
+    title: 'Aldo Montinaro Portfolio',
     description: '',
     imageURL: '',
   },
@@ -84,7 +84,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button. 
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button. 
   },
   skills: [
     'Python',

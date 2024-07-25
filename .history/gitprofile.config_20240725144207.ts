@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'GitHub Projects',
+      header: 'GitHub Projects Repositories',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'updated', // Sort projects by 'stars' or 'updated'
@@ -30,14 +30,14 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        //projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'Other Projects',
+      header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        /* {
+        {
           title: 'Project Name',
           description:
             'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
@@ -52,12 +52,12 @@ const CONFIG = {
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
-        }, */
+        },
       ],
     },
   },
   seo: {
-    title: 'Aldo Montinaro',
+    title: 'Aldo Montinaro Portfolio',
     description: '',
     imageURL: '',
   },
@@ -84,7 +84,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      '', // Empty fileUrl will hide the `Download Resume` button. 
+      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button. 
   },
   skills: [
     'Python',
@@ -162,7 +162,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    username: 'arifszn', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -237,7 +237,11 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `&copy; Copyright 2024 Aldo Montinaro`,
+  footer: `Made with <a 
+      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      target="_blank"
+      rel="noreferrer"
+    >GitProfile</a> and ❤️`,
 
   enablePWA: true,
 };
